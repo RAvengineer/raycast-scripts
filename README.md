@@ -1,8 +1,13 @@
 # Raycast Scripts
 
+## About
+
+Scripts to be used by [Raycast](https://www.raycast.com/) to automate repetitive tasks, which would have generally taken 2 min to be done manually, but took 2 weeks to develop the script. :sweat_smile:
+
 ## Table of Contents
 
 - [Raycast Scripts](#raycast-scripts)
+  - [About](#about)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [speedtest](#speedtest)
@@ -10,8 +15,8 @@
   - [Usage](#usage)
     - [Add .env file](#add-env-file)
     - [Run/Test script](#runtest-script)
-      - [speedtest](#speedtest-1)
-      - [tagebuch](#tagebuch-1)
+      - [Test speedtest](#test-speedtest)
+      - [Test tagebuch](#test-tagebuch)
 
 ## Installation
 
@@ -48,13 +53,13 @@ Add the respective values to the .env file.
 
 ### Run/Test script
 
-#### speedtest
+#### Test speedtest
 
 ```bash
 sh ./speedtest.sh
 ```
 
-#### tagebuch
+#### Test tagebuch
 
 ```bash
 yarn tagebuch
