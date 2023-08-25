@@ -1,0 +1,22 @@
+{
+  "name": "raycast-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scripts used by Raycast?...!",
+  "main": "index.js",
+  "author": "Rahul Bera",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.4",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "jdenticon": "^3.2.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.2",
+    "unsplash-js": "^7.0.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tagebuch": "node ./tagebuch.js"
+  }
+}
