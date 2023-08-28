@@ -70,7 +70,6 @@ const getCoverImage = async () => {
       kTopics.onTheLake,
       kTopics.wallpapers,
       kTopics.nature,
-      kTopics.streetPhotography,
       kTopics.animals,
       kTopics.travel,
     ],
