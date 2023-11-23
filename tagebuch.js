@@ -271,52 +271,6 @@ const createPagePayload = (coverImg, quoteOfTheDay, quoteAuthor) => ({
         color: "gray_background",
       },
     },
-    {
-      object: "block",
-      heading_2: {
-        rich_text: [
-          {
-            text: {
-              content: "🧑🏻‍🏫 Learning of the Day",
-            },
-          },
-        ],
-      },
-    },
-    {
-      object: "block",
-      quote: {
-        rich_text: [
-          {
-            text: {
-              content: "Triumph",
-            },
-            annotations: {
-              bold: true,
-            },
-          },
-          {
-            text: {
-              content: " & ",
-            },
-          },
-          {
-            text: {
-              content: "Disaster",
-            },
-            annotations: {
-              bold: true,
-            },
-          },
-          {
-            text: {
-              content: ": Treat those 2 imposters the same!",
-            },
-          },
-        ],
-        color: "yellow",
-      },
-    },
     // Collapsible header_3 block
     {
       object: "block",
