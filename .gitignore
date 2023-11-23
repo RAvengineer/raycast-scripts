@@ -367,3 +367,4 @@ zsdoc/data
 # End of https://www.toptal.com/developers/gitignore/api/zsh,node,yarn,dotenv,python
 
 .DS_Store
+.vscode
