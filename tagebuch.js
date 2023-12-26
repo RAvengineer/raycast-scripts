@@ -95,6 +95,29 @@ const getCoverImage = async () => {
 };
 
 /**
+// list all unsplash topics
+(async () => {
+  const response = await unsplash.topics.list({
+    page: 1,
+    perPage: 30,
+    orderBy: "featured",
+  });
+  const savedTopics = Object.values(kTopics);
+  const parsedTopics = response.response.results.map((topic) => {
+    return {
+      id: topic.id,
+      totalPhotos: topic.total_photos,
+      slug: topic.slug,
+      isNew: !savedTopics.includes(topic.id),
+      url: topic.links.html,
+    };
+  });
+  parsedTopics.sort((a, b) => b.isNew - a.isNew);
+  console.table(parsedTopics);
+})();
+ */
+
+/**
 // read a page
 // console.log(process.env.TEST_PAGE_ID);
 (async () => {
