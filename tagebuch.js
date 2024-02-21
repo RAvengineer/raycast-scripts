@@ -172,7 +172,7 @@ const createPagePayload = (coverImg, quoteOfTheDay, quoteAuthor) => ({
     Mission: {
       multi_select: [
         {
-          name: "Daily",
+          name: "daily",
         },
       ],
     },
